@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "49c144e1b3af3b33",
+        "id": "b951022c74360456",
         "type": "tabs",
         "children": [
           {
-            "id": "e5a30b03edef1f1d",
+            "id": "056dc43d9f3c9373",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -70,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,9 +174,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e5a30b03edef1f1d",
+  "active": "056dc43d9f3c9373",
   "lastOpenFiles": [
     "README.md",
+    "Welcome.md",
+    "Untitled.canvas",
     "RAG Diagram.drawio.png",
     "RAG Diagram.drawio",
     "MongoDB AWS.drawio.png",
@@ -185,8 +186,6 @@
     "LICENSE",
     "Data-specific systems.md",
     "SAMLA Retrieval Augmented Generation (RAG).md",
-    "Welcome.md",
-    "Untitled.canvas",
     "Sarah.md",
     "Samuel.md",
     "Agents.md",
