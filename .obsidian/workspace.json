@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b951022c74360456",
+        "id": "bc5e5a5852cea39b",
         "type": "tabs",
         "children": [
           {
-            "id": "056dc43d9f3c9373",
+            "id": "b09a682a0f0283bd",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "SAMLA Retrieval Augmented Generation (RAG).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SAMLA Retrieval Augmented Generation (RAG)"
             }
           }
         ]
@@ -174,22 +178,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "056dc43d9f3c9373",
+  "active": "b09a682a0f0283bd",
   "lastOpenFiles": [
-    "README.md",
-    "Welcome.md",
-    "Untitled.canvas",
+    "Samuel.md",
     "RAG Diagram.drawio.png",
-    "RAG Diagram.drawio",
+    "README.md",
+    "Emile.md",
+    "Sarah.md",
     "MongoDB AWS.drawio.png",
-    "MongoDB AWS.drawio",
-    "LICENSE",
+    "Agents.md",
     "Data-specific systems.md",
     "SAMLA Retrieval Augmented Generation (RAG).md",
-    "Sarah.md",
-    "Samuel.md",
-    "Agents.md",
-    "Emile.md",
+    "Welcome.md",
+    "Untitled.canvas",
+    "RAG Diagram.drawio",
+    "MongoDB AWS.drawio",
+    "LICENSE",
     "2025-05-01.md",
     "Untitled 1.canvas",
     "create a link.md"
