@@ -7,7 +7,6 @@ When interfacing with SAMLA Agents and systems, two things are very important (d
 
 - [[General/organization_id]]
 - [[General/session_id]]
-
 ## Infrastructure
 - [[Amazon Web Services]]
 - [[MongoDB]]
@@ -15,8 +14,6 @@ When interfacing with SAMLA Agents and systems, two things are very important (d
 - [[Pinecone]]
 - [[Vapi]]
 - [[Vercel]]
-
-
 ## [[Data-specific systems]]
 - [[SAMLA Retrieval Augmented Generation (RAG)]]
 ## [[Agents]]
@@ -24,6 +21,5 @@ When interfacing with SAMLA Agents and systems, two things are very important (d
 - [[Emile]]
 - [[Sarah]]
 ## Important resources
-- [SAMLA Github][https://github.com/SAMLA-io]
-- [SAMLA WebPage](mysamla.com)
-- 
+- [SAMLA Github](https://github.com/SAMLA-io/)
+- [SAMLA WebPage](https://mysamla.com)
