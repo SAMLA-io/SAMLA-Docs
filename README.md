@@ -8,3 +8,8 @@ This is the main page for SAMLA's documentation for our technologies, infrastruc
 - [[Samuel]]
 - [[Emile]]
 - [[Sarah]]
+
+## Important resources
+- [SAMLA Github][https://github.com/SAMLA-io]
+- [SAMLA WebPage](mysamla.com)
+- 
