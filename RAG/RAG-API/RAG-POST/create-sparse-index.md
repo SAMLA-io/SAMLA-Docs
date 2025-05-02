@@ -9,6 +9,7 @@ Enables the creation of a new sparse Pinecone index for the SAMLA system. This e
                 - `us-east-1`: North Virginia (default)
                 - `us-west-2`: Oregon
                 - `eu-west-1`: Ireland
+    - Returns a confirmation of the successful index creation or an error message if the operation fails.
     - Example:
         ```json
         {
@@ -16,4 +17,3 @@ Enables the creation of a new sparse Pinecone index for the SAMLA system. This e
             "region": "us-east-1"
         }
         ```
-    - Returns a confirmation of the successful index creation or an error message if the operation fails.
