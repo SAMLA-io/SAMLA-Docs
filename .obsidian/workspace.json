@@ -11,10 +11,14 @@
             "id": "fd245aa9261902b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -187,6 +191,14 @@
   },
   "active": "fd245aa9261902b8",
   "lastOpenFiles": [
+    "Infrastructure/OpenAI/OpenAI.md",
+    "README.md",
+    "Infrastructure/Vercel/Vercel.md",
+    "Infrastructure/VAPI/Vapi.md",
+    "Infrastructure/Pinecone/Pinecone.md",
+    "Samuel.md",
+    "Infrastructure/MongoDB/MongoDB.md",
+    "Infrastructure/MongoDB.md",
     "Infrastructure/AWS/Amazon Web Services.md",
     "Infrastructure/VAPI",
     "Infrastructure",
@@ -208,9 +220,7 @@
     "Emile.md",
     "Data-specific systems.md",
     "Agents.md",
-    "README.md",
     "General/session_id.md",
-    "Samuel.md",
     "General",
     "Sarah.md",
     "RAG",

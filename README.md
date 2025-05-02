@@ -8,6 +8,15 @@ When interfacing with SAMLA Agents and systems, two things are very important (d
 - [[General/organization_id]]
 - [[General/session_id]]
 
+## Infrastructure
+- [[Amazon Web Services]]
+- [[MongoDB]]
+- [[OpenAI]]
+- [[Pinecone]]
+- [[Vapi]]
+- [[Vercel]]
+
+
 ## [[Data-specific systems]]
 - [[SAMLA Retrieval Augmented Generation (RAG)]]
 ## [[Agents]]
