@@ -16,5 +16,10 @@ The SAMLA RAG system is built using FastAPI and Pinecone, providing a robust API
 ## Overview
 
 ![[MongoDB AWS.drawio.png]]
-
-
+## API Endpoints
+- [[search]]
+- [[create-dense-index]]
+- [[create-sparse-index]]
+- [[list-indexes]]
+- [[upload-documents]]
+- [[delete-documents]]
