@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -224,7 +224,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "32eef7e60a1d7843",
+  "active": "ef112f0b9f84e0de",
   "lastOpenFiles": [
     "General/session_id.md",
     "RAG/SAMLA Retrieval Augmented Generation (RAG).md",
