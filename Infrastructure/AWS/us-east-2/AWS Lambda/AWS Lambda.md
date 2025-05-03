@@ -11,3 +11,9 @@ The main reason for using AWS Lambda is for creating a common interface with our
 - [[get_one]]
 - [[get_all]]
 - [[get_many]]
+- [[insert_one]]
+- [[insert_many]]
+
+The code for these functions can be found [here](https://github.com/SAMLA-io/mongo-api)
+	
+Using these functions as a base, there are some derived functions that call this main 
