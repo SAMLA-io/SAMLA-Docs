@@ -4,7 +4,7 @@ This document outlines the AWS services used in the SAMLA system and their speci
 
 ## Services Used
 
-### AWS Lambda
+### [[AWS Lambda]]
 - Serverless compute service that runs code in response to events
 - Used for:
   - Processing document uploads
@@ -17,7 +17,7 @@ This document outlines the AWS services used in the SAMLA system and their speci
   - No server management required
   - Built-in high availability
 
-### Amazon Elastic Container Registry (ECR)
+### [[Elastic Container Registry (ECR)]]
 - Fully managed Docker container registry
 - Used for:
   - Storing container images

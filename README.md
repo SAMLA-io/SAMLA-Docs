@@ -7,7 +7,7 @@ When interfacing with SAMLA Agents and systems, two things are very important (d
 
 - [[General/organization_id]]
 - [[General/session_id]]
-## Infrastructure
+## [[Infrastructure]]
 - [[Amazon Web Services]]
 - [[MongoDB]]
 - [[OpenAI]]
