@@ -30,7 +30,7 @@ This document outlines the AWS services used in the SAMLA system and their speci
   - Integration with ECS
   - Cross-region replication
 
-### Amazon Elastic Container Service (ECS)
+### [[Elastic Container Service (ECS)]]
 - Highly scalable container orchestration service, used for publishing our [[Agents]] in the cloud
 - Used for:
   - Running containerized applications
@@ -43,7 +43,7 @@ This document outlines the AWS services used in the SAMLA system and their speci
   - Service discovery
   - Auto-scaling
 
-### Amazon API Gateway
+### [[Amazon API Gateway]]
 - Fully managed service for creating, publishing, and maintaining APIs
 - Used for:
   - Exposing RAG system endpoints
