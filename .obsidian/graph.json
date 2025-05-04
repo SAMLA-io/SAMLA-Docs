@@ -6,7 +6,85 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:RAG  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"Infrastructure/AWS/us-east-2/AWS Lambda\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"Infrastructure/AWS/us-east-1/Elastic Container Registry\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:Infrastructure/MongoDB  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:Infrastructure/OpenAI  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Infrastructure/Pinecone  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:Infrastructure/VAPI  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:Infrastructure/Vercel  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:General  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "path:Agents  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431492
+      }
+    },
+    {
+      "query": "path:Infrastructure  ",
+      "color": {
+        "a": 1,
+        "rgb": 11572231
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -14,9 +92,9 @@
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
   "centerStrength": 0.52294921875,
-  "repelStrength": 10,
+  "repelStrength": 12.4446614583333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9472305028997661,
-  "close": true
+  "scale": 0.6867311932227964,
+  "close": false
 }
