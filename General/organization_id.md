@@ -5,3 +5,8 @@ For example, by using a specific organization_id, [[Samuel]] can analyze and rep
 ## How is it generated?
 
 The organization_id is typically generated when a new organization is created in the system. While the exact method of generation can vary, it is important that each organization_id is unique to avoid conflicts or data overlap between organizations. This uniqueness allows the system to reliably distinguish between different organizations and maintain data integrity.
+
+## How it works with [[MongoDB]]
+
+In MongoDB, each organization's data is stored in a separate database named with its organization_id. When making API calls through [[AWS Lambda]], the organization_id is used to select the correct database for that organization's data. This ensures that data from different organizations stays separate and secure. This field is present in API calls:
+- [[get_all_conversations]]

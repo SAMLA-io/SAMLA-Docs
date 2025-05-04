@@ -14,16 +14,16 @@ Retrieves a single document from a specified MongoDB collection based on a custo
 - `query`: A JSON object representing the MongoDB query criteria. This parameter can be provided either in the request body or in the query string.
 
 ## Returns
-- A single JSON object containing the document that matches the query criteria, including:
-  - All fields stored in the MongoDB document
-  - ObjectId fields are automatically converted to strings for JSON compatibility
+        - A single JSON object containing the document that matches the query criteria, including:
+            - All fields stored in the MongoDB document
+            - ObjectId fields are automatically converted to strings for JSON compatibility
 
 ## Error Responses
-- 400 Bad Request: 
-  - If the database, collection name, or query is missing
-  - If the query parameter is not a valid JSON string
-- 404 Not Found: If no document matches the query criteria
-- 500 Internal Server Error: If there's an issue connecting to MongoDB or processing the request
+        - 400 Bad Request: 
+            - If the database, collection name, or query is missing
+            - If the query parameter is not a valid JSON string
+        - 404 Not Found: If no document matches the query criteria
+        - 500 Internal Server Error: If there's an issue connecting to MongoDB or processing the request
 
 ## Example Request
 ```json
@@ -44,7 +44,7 @@ Retrieves a single document from a specified MongoDB collection based on a custo
         "Content-Type": "application/json"
     },
     "body": {
-        "_id": "507f1f77bcf86cd799439011",
+    "_id": "507f1f77bcf86cd799439011",
         "name": "John",
         "age": 25,
         "email": "john@example.com"
