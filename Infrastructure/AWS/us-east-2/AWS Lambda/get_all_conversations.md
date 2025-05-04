@@ -9,8 +9,8 @@ Retrieves all conversations from a specified MongoDB collection. This endpoint i
   - `Content-Type: application/json`
 
 ## Parameters
-- `database`: The name of the MongoDB database containing the conversations collection. This parameter can be provided either in the query string or in the request body.
-- `collection`: The name of the collection containing conversations. This parameter can be provided either in the query string or in the request body.
+- `organization_id`: The name of the MongoDB database (organization_id) containing the conversations collection. This parameter can be provided either in the query string or in the request body.
+- `user_id`: Filter conversations by user ID to only return conversations where this user is a participant. This parameter can be provided either in the query string or in the request body.
 
 ## Returns
 - A JSON array containing all conversations from the specified collection, where each conversation includes:
