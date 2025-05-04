@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General/organization_id.md",
+                "file": "Infrastructure/AWS/Amazon Web Services.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "organization_id"
+              "title": "Amazon Web Services"
             }
           }
         ]
@@ -191,34 +191,34 @@
   },
   "active": "e9ae224dfc8f1eee",
   "lastOpenFiles": [
+    "README.md",
+    "Data-specific systems.md",
+    "Infrastructure/Infrastructure.md",
+    "Infrastructure/OpenAI/OpenAI.md",
+    "Infrastructure/Pinecone/Pinecone.md",
+    "Infrastructure/MongoDB/MongoDB.md",
+    "Infrastructure/AWS/us-east-1/Elastic Container Registry/Elastic Container Registry (ECR).md",
+    "General/organization_id.md",
     "Infrastructure/AWS/us-east-2/AWS Lambda/AWS Lambda.md",
     "Infrastructure/AWS/us-east-2/AWS Lambda/insert_many.md",
-    "General/organization_id.md",
     "Infrastructure/AWS/us-east-2/AWS Lambda/get_all_conversations.md",
     "Infrastructure/AWS/us-east-2/AWS Lambda/get_all.md",
     "Infrastructure/AWS/us-east-2/AWS Lambda/insert_one.md",
     "Infrastructure/AWS/us-east-2/AWS Lambda/get_one.md",
     "Infrastructure/AWS/us-east-2/AWS Lambda/get_many.md",
     "Infrastructure/AWS/Amazon Web Services.md",
-    "Infrastructure/AWS/us-east-1/Elastic Container Registry/Elastic Container Registry (ECR).md",
     "Agents/Samuel.md",
     "Agents/Emile.md",
     "Agents/Agents.md",
     "Agents",
     "Agents/Sarah.md",
-    "README.md",
     "General/session_id.md",
-    "Infrastructure/MongoDB/MongoDB.md",
     "Infrastructure/MongoDB/clusters/Cluster0.md",
-    "Infrastructure/OpenAI/OpenAI.md",
-    "Infrastructure/Pinecone/Pinecone.md",
     "Infrastructure/VAPI/Vapi.md",
     "Infrastructure/Vercel/Vercel.md",
-    "Infrastructure/Infrastructure.md",
     "Infrastructure/AWS/us-east-1/Elastic Container Registry",
     "RAG/RAG-API/RAG-GET/get_all.md",
     "Infrastructure/AWS/get_all.md",
-    "RAG/SAMLA Retrieval Augmented Generation (RAG).md",
     "Infrastructure/AWS/us-east-2/AWS Lambda",
     "Infrastructure/AWS/us-east-2",
     "Infrastructure/MongoDB/clusters",

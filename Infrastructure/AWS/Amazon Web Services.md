@@ -31,7 +31,7 @@ This document outlines the AWS services used in the SAMLA system and their speci
   - Cross-region replication
 
 ### Amazon Elastic Container Service (ECS)
-- Highly scalable container orchestration service
+- Highly scalable container orchestration service, used for publishing our [[Agents]] in the cloud
 - Used for:
   - Running containerized applications
   - Managing service deployments
