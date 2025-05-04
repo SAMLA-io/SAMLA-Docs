@@ -12,10 +12,6 @@ The SAMLA RAG system is built using FastAPI and Pinecone, providing a robust API
 - **Semantic Search**: Advanced search capabilities using Pinecone's vector database with multilingual-e5-large model
 - **RESTful API**: Clean and intuitive API endpoints for all operations
 - **CORS Enabled**: Ready for integration with frontend applications
-
-## Overview
-
-![[MongoDB AWS.drawio.png]]
 ## API Endpoints
 - [[search]]
 - [[create-dense-index]]

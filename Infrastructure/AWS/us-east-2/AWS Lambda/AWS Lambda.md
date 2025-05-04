@@ -16,4 +16,6 @@ The main reason for using AWS Lambda is for creating a common interface with our
 
 The code for these functions can be found [here](https://github.com/SAMLA-io/mongo-api)
 	
-Using these functions as a base, there are some derived functions that call this main 
+Using these functions as a base, there are some derived functions that call these main functions to provide more specific results without the need of doing much queries.  
+
+![[MongoDB AWS.drawio.png]]
