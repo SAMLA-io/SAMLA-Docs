@@ -17,43 +17,31 @@ This document outlines the AWS services used in the SAMLA system and their speci
   - No server management required
   - Built-in high availability
 
-### Amazon S3
-- Object storage service for storing and retrieving any amount of data
+### Amazon Elastic Container Registry (ECR)
+- Fully managed Docker container registry
 - Used for:
-  - Storing original documents
-  - Temporary storage during processing
-  - Backup and archival purposes
+  - Storing container images
+  - Versioning container deployments
+  - Managing image lifecycle
+  - Securing container artifacts
 - Features:
-  - High durability (99.999999999%)
-  - Scalable storage
-  - Versioning support
-  - Lifecycle management
+  - Private container repositories
+  - Image scanning for vulnerabilities
+  - Integration with ECS
+  - Cross-region replication
 
-### Amazon CloudWatch
-- Monitoring and observability service
+### Amazon Elastic Container Service (ECS)
+- Highly scalable container orchestration service
 - Used for:
-  - Monitoring Lambda function performance
-  - Tracking API request metrics
-  - Setting up alarms and notifications
-  - Logging system events
+  - Running containerized applications
+  - Managing service deployments
+  - Scaling container workloads
+  - Load balancing container traffic
 - Capabilities:
-  - Real-time monitoring
-  - Custom dashboards
-  - Automated responses
-  - Log aggregation
-
-### AWS IAM
-- Identity and Access Management service
-- Used for:
-  - Managing user permissions
-  - Controlling access to AWS resources
-  - Setting up service roles
-  - Implementing security policies
-- Features:
-  - Fine-grained access control
-  - Multi-factor authentication
-  - Temporary security credentials
-  - Identity federation
+  - Serverless Fargate option
+  - Task definitions
+  - Service discovery
+  - Auto-scaling
 
 ### Amazon API Gateway
 - Fully managed service for creating, publishing, and maintaining APIs
@@ -70,19 +58,19 @@ This document outlines the AWS services used in the SAMLA system and their speci
 
 ## Infrastructure Architecture
 
-The SAMLA system leverages these AWS services in a serverless architecture:
+The SAMLA system leverages these AWS services in a modern containerized architecture:
 1. API Gateway receives incoming requests
-2. Lambda functions process the requests
-3. S3 stores document data
-4. CloudWatch monitors system health
-5. IAM ensures secure access
+2. Lambda functions handle serverless workloads
+3. ECR stores container images
+4. ECS orchestrates container deployments
+5. Services communicate through API Gateway endpoints
 
 ## Best Practices
 
 - Use AWS Lambda layers for shared code
 - Implement proper error handling and retries
-- Set up appropriate CloudWatch alarms
-- Follow the principle of least privilege in IAM
+- Set up appropriate monitoring and logging
+- Follow container security best practices
 - Enable encryption at rest and in transit
 - Implement proper backup strategies
 - Use AWS CloudFormation for infrastructure as code
