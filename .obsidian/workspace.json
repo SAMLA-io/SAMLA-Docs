@@ -11,14 +11,10 @@
             "id": "e9ae224dfc8f1eee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Infrastructure/AWS/Amazon Web Services.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Amazon Web Services"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -191,19 +187,20 @@
   },
   "active": "e9ae224dfc8f1eee",
   "lastOpenFiles": [
-    "Infrastructure/AWS/us-east-1/Elastic Container Registry/Elastic Container Registry (ECR).md",
-    "Infrastructure/AWS/us-east-1/Elastic Container Service/Elastic Container Service (ECS).md",
-    "Infrastructure/AWS/Amazon Web Services.md",
-    "Infrastructure/AWS/us-east-1/Elastic Container Service",
-    "Infrastructure/AWS/us-east-2/API Gateway/Amazon API Gateway.md",
-    "Infrastructure/AWS/us-east-2/API Gateway",
+    "Agents/Agents.md",
     "README.md",
-    "Data-specific systems.md",
     "Infrastructure/Infrastructure.md",
+    "Agents/organization_id.md",
+    "Infrastructure/AWS/Amazon Web Services.md",
+    "Infrastructure/MongoDB/MongoDB.md",
+    "Infrastructure/AWS/us-east-2/API Gateway/Amazon API Gateway.md",
+    "Infrastructure/AWS/us-east-1/Elastic Container Service/Elastic Container Service (ECS).md",
+    "Infrastructure/AWS/us-east-1/Elastic Container Registry/Elastic Container Registry (ECR).md",
+    "Infrastructure/AWS/us-east-1/Elastic Container Service",
+    "Infrastructure/AWS/us-east-2/API Gateway",
+    "Data-specific systems.md",
     "Infrastructure/OpenAI/OpenAI.md",
     "Infrastructure/Pinecone/Pinecone.md",
-    "Infrastructure/MongoDB/MongoDB.md",
-    "General/organization_id.md",
     "Infrastructure/AWS/us-east-2/AWS Lambda/AWS Lambda.md",
     "Infrastructure/AWS/us-east-2/AWS Lambda/insert_many.md",
     "Infrastructure/AWS/us-east-2/AWS Lambda/get_all_conversations.md",
@@ -213,10 +210,9 @@
     "Infrastructure/AWS/us-east-2/AWS Lambda/get_many.md",
     "Agents/Samuel.md",
     "Agents/Emile.md",
-    "Agents/Agents.md",
     "Agents",
     "Agents/Sarah.md",
-    "General/session_id.md",
+    "Agents/session_id.md",
     "Infrastructure/MongoDB/clusters/Cluster0.md",
     "Infrastructure/VAPI/Vapi.md",
     "Infrastructure/Vercel/Vercel.md",
