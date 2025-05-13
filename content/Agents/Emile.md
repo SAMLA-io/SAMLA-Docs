@@ -1,0 +1,2 @@
+> Emile is SAMLA’s intelligent assistant who analyzes meetings in real time or from recordings, identifies key points such as decisions, tasks, and agreements, and generates clear and actionable summaries. Additionally, she automatically follows up on pending items, coordinates actions with other agents or users, and ensures that what was agreed upon in meetings turns into concrete results, preventing information loss, delays, and misalignment between teams.
+
