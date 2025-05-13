@@ -13,5 +13,3 @@ This is the main page for SAMLA's documentation for our technologies, infrastruc
 ## Important resources
 - [SAMLA Github](https://github.com/SAMLA-io/)
 - [SAMLA WebPage](https://mysamla.com)
-
-
