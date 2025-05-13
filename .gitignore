@@ -9,3 +9,6 @@ tsconfig.tsbuildinfo
 private/
 .replit
 replit.nix
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/settings.json

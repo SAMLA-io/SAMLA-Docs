@@ -14,7 +14,7 @@ Both indexes contain the same document data but are transformed differently to s
 
 ### Multi-tenant Isolation
 - Each organization's data is isolated using Pinecone namespaces
-- The namespace identifier corresponds to the organization's unique ID
+- The namespace identifier corresponds to the [[organization_id]]
 - This ensures complete data separation between different enterprise customers
 
 ## Index Configuration
