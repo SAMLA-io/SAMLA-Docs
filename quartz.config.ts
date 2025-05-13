@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "samla-io.github.io/SAMLA-Docs/README",
+    baseUrl: "samla-io.github.io/SAMLA-Docs",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
