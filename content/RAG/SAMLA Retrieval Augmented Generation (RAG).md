@@ -1,4 +1,3 @@
-
 A powerful [Retrieval-Augmented Generation](https://github.com/SAMLA-io/RAG) system designed for SAMLA's enterprise AI agents. This system enables efficient document retrieval and context-aware responses for enterprise customers.
 
 ## Overview
