@@ -9,6 +9,8 @@ When interfacing with SAMLA Agents, two things are very important (depending on 
 - [[organization_id]]
 - [[session_id]]
 
+All agents use [[AWS Lambda]] functions by default (and should do so at all times) to connect to the MongoDB database for storing and retrieving chat history and session data. This ensures secure, scalable, and reliable data management across all agent interactions.
+
 ## How to create an agent? 
 
 1. Create a new folder in the [SAMLA Enterprise Tools](https://github.com/SAMLA-io/SAMLA-Enterprise-Tools.git) repository
