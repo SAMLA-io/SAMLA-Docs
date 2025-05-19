@@ -3,9 +3,9 @@ Performs JWT Token verification using clerks's [`verifyToken`](https://clerk.com
 ## Parameters
 The parameters are automatically passed by API Gateway when performing API Calls, as this function works as an intermediate function between the user and the actual API Lambda function. Nevertheless, it requires the following parameters passed as part of the event: 
 
-- `type`: 
-- `authorizationToken`: 
-- `methodArn`: 
+- `type`: The type of token being passed (e.g. "TOKEN" or "REQUEST")
+- `authorizationToken`: The JWT token from the Authorization header, in format "Bearer <token>" 
+- `methodArn`: The ARN of the API Gateway method being accessed, used to generate the policy document
 
 ## Returns
 - A JSON Policy Document which is used by API Gateway to determine if the user has access to the resource. 
