@@ -4,6 +4,8 @@ Amazon API Gateway is a fully managed service that makes it easy for developers 
 
 APIs act as the "front door" for applications to access data, business logic, or functionality from your backend services.
 
+All API calls are authenticated, view [[Authentication]] for further information.
+
 ## API Endpoints
 
 ### GET Endpoints
