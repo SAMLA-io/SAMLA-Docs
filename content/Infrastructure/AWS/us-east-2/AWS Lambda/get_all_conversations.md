@@ -2,12 +2,6 @@
 
 Retrieves all conversations from a specified MongoDB collection. This endpoint is specifically designed to fetch conversation data, providing a comprehensive view of all conversations stored in the database.
 
-## Endpoint Details
-- **Endpoint:** `/get-all-conversations`
-- **Method:** GET
-- **Headers:**
-  - `Content-Type: application/json`
-
 ## Parameters
 - `organization_id`: The name of the MongoDB database (organization_id) containing the conversations collection. This parameter can be provided either in the query string or in the request body.
 - `user_id`: Filter conversations by user ID to only return conversations where this user is a participant. This parameter can be provided either in the query string or in the request body.

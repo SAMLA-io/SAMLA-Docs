@@ -1,13 +1,6 @@
 # Insert One Document
 
 Inserts a single document into a specified MongoDB collection. This endpoint is designed for inserting individual documents and provides a simple way to add new data to your database.
-
-## Endpoint Details
-- **Endpoint:** `/insert-one`
-- **Method:** POST
-- **Headers:**
-  - `Content-Type: application/json`
-
 ## Parameters
 - `database`: The name of the MongoDB database where the document will be inserted. This parameter can be provided either in the request body or in the query string.
 - `collection`: The name of the collection where the document will be inserted. This parameter can be provided either in the request body or in the query string.

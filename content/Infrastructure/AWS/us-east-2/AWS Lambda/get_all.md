@@ -1,13 +1,6 @@
 # Get All Documents
 
 Retrieves all documents from a specified MongoDB collection within your organization's database. This endpoint provides a straightforward way to access the complete set of documents stored in a particular collection, making it ideal for scenarios where you need to view or process all available data.
-
-## Endpoint Details
-- **Endpoint:** `/get-all`
-- **Method:** GET
-- **Headers:**
-  - `Content-Type: application/json`
-
 ## Parameters
 - `database`: The name of the MongoDB database containing the target collection. This parameter can be provided either in the query string or in the request body.
 - `collection`: The name of the collection from which to retrieve all documents. This parameter can be provided either in the query string or in the request body.

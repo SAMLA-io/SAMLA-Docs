@@ -1,13 +1,6 @@
 # Get One Document
 
 Retrieves a single document from a specified MongoDB collection based on a custom query. This endpoint is useful when you need to fetch a specific document that matches your criteria, and you expect only one result.
-
-## Endpoint Details
-- **Endpoint:** `/get-one`
-- **Method:** POST
-- **Headers:**
-  - `Content-Type: application/json`
-
 ## Parameters
 - `database`: The name of the MongoDB database containing the target collection. This parameter can be provided either in the request body or in the query string.
 - `collection`: The name of the collection from which to retrieve the document. This parameter can be provided either in the request body or in the query string.

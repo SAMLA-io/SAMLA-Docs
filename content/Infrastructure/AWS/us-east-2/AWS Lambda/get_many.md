@@ -1,13 +1,6 @@
 # Get Many Documents
 
 Retrieves multiple documents from a specified MongoDB collection based on a custom query. This endpoint provides flexible querying capabilities, allowing you to filter and retrieve specific documents that match your criteria.
-
-## Endpoint Details
-- **Endpoint:** `/get-many`
-- **Method:** POST
-- **Headers:**
-  - `Content-Type: application/json`
-
 ## Parameters
 - `database`: The name of the MongoDB database containing the target collection. This parameter can be provided either in the request body or in the query string.
 - `collection`: The name of the collection from which to retrieve documents. This parameter can be provided either in the request body or in the query string.

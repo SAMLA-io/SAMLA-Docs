@@ -1,13 +1,6 @@
 # Insert Many Documents
 
 Inserts multiple documents into a specified MongoDB collection in a single operation. This endpoint is optimized for bulk document insertion, providing an efficient way to add multiple documents to your database at once.
-
-## Endpoint Details
-- **Endpoint:** `/insert-many`
-- **Method:** POST
-- **Headers:**
-  - `Content-Type: application/json`
-
 ## Parameters
 - `database`: The name of the MongoDB database where documents will be inserted. This parameter can be provided either in the request body or in the query string.
 - `collection`: The name of the collection where documents will be inserted. This parameter can be provided either in the request body or in the query string.
