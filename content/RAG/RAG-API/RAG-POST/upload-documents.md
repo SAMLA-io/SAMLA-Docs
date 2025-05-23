@@ -16,12 +16,14 @@ Enables seamless document ingestion by allowing you to upload one or multiple do
 			  "documents": [
 				{
 				  "content": "Q3 marketing strategy outcomes were positive...",
+				  "project_id": "marketing-strategy",
 				  "source": "internal report",
 				  "author": "Jane Doe",
 				  "created_at": "2024-06-01"
 				},
 				{
 				  "content": "Customer feedback summary for May...",
+				  "project_id": "general",
 				  "source": "survey",
 				  "tags": ["customer", "feedback", "2024"]
 				}
