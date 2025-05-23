@@ -6,8 +6,8 @@ Enables seamless document ingestion by allowing you to upload one or multiple do
         - [[organization_id]]: The unique identifier for your organization, ensuring that uploaded documents are securely scoped to your data and maintaining strict separation between different organizations’ information.
         - `documents`: An array of document objects to be uploaded. Each object must include:
             - `content`: The main text or body of the document. This can be anything from a meeting transcript to a technical report.
+			- [[project_id]]: The unique identifier for the project the document belongs to within the organization. If the information related to general information about the organization, use "general" as the project_id.
             - ...additional_metadata: Optional fields such as `source`, `author`, `timestamp`, or any custom metadata relevant to your use case. These fields enhance document discoverability and context during search.
-	- Make sure to include a [[project_id]] field in the metadata for each document, this will be used to identify the project the document belongs to within the organization. If the information related to general information about the organization, use "general" as the project_id.
     - Returns the count of successfully uploaded documents, confirming that your data is now available for search and retrieval.
         - Example:
 			```json
