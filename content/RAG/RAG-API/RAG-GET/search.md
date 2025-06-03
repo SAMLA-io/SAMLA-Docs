@@ -3,9 +3,9 @@ Performs a powerful hybrid search, seamlessly blending both semantic and lexical
 - `GET /search`
     - Perform semantic search across organization's documents
     - Parameters: 
-        - `organization_id`: The organization's unique identifier
+        - [[organization_id]]: The organization's unique identifier
         - `prompt`: The search query text
-        - `project_id`: The project's unique identifier
+        - [[project_id]]: The project's unique identifier
     - Returns array of hits with:
         - `id`: Document identifier
         - `score`: Similarity score
