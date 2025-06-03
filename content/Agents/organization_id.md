@@ -4,7 +4,8 @@ For example, by using a specific organization_id, [[Samuel]] can analyze and rep
 
 ## How is it generated?
 
-The organization_id is typically generated when a new organization is created in the system. While the exact method of generation can vary, it is important that each organization_id is unique to avoid conflicts or data overlap between organizations. This uniqueness allows the system to reliably distinguish between different organizations and maintain data integrity.
+The organization_id is typically generated when a new organization is created in the system. Clerk is tasked with generating the organization_id whenever a new 
+organization is created. It is very important that each organization_id is unique to avoid conflicts or data overlap between organizations. This uniqueness allows the system to reliably distinguish between different organizations and maintain data integrity. For testing purposes, the organization_id can be generated manually by [[Clerk]], or by defining a UUID-like string (internal tests tend to be done with the `samla` id).
 
 ## How it works with [[MongoDB]]
 
